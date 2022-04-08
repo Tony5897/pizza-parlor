@@ -1,9 +1,12 @@
 # Expected Output 
+#                ###Achieve Baseline Functionality First!###
+
 # Rules/Baseline:
 * Allow user to choose TOPPINGS and SIZE for pizza order
  * Creat a pizza OBJECT CONSTRUCTOR with PROPERTIES for TOPPINGS and SIZE.
  * Create a PROTOTYPE METHOD for the COST of a pizza depending on SELECTION chosen.
  * Use own formula for this.
+ * FORMAT README!
 #
 # #####################
 <!-- special mold to create 'new' objects(instance) -->
@@ -19,42 +22,41 @@ Expected Output: Pizza object constructor
 Describe: Pizza()
 Test: "It should return an object with the properties for Size, and Toppings."
 Code: pizzaJS = new Pizza();
-Expected Output: Pizza {topping[""], Size }
+Expected Output: Pizza {topping[""], size: "" }
 
 <!-- User deciding size of pizza..determine sizes..??? -->
 <!-- What determines sizes...small/med/lrg??...NOTE: FORMULA FOR COST FOR PIZZA/TOPPINGS  -->
 <!-- NOTE: SIZE properties(User size choice) above in first test -->
-<!--VIS:user size pick  -->
+<!--##VIS: USER PICK SIZE## -->
 <!-- "PROTOTYPE" PROPERTY -->
-Describe: Pizza.prototype.pickSize(large)
-Test: "It should return 
-Code: 
-Expected Output:
+Describe: Pizza.prototype.pickSizes(sizes)
+Test: "It should return a size based on user size choice."
+Code: pizzaJS.pickSize();
+Expected Output: sizes
 
-Describe: Pizza.addToppings
-Test:
+<!-- ADD ARRAY??????  -->
+<!-- NOTE: GETTING BACK USERS CHOICE OF PIZZA 'SIZE' AND TOPPING... -->
+<!-- ##VIS: USER ADD TOPPINGS -->
+<!-- "PROTOTYPE" PROPERTY -->
+Describe: Pizza.prototype.addToppings(menuChoices)
+Test: It should add an array to the object pizza
+Code: pizzaJS.addToppings(["ExtraCheese"];)
+Expected Output: {toppings: array}
+
+Describe: Pizza
+Test: 
 Code:
 Expected Output:
 
+Describe: Pizza
+Test: 
+Code:
+Expected Output:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Describe: Pizza
+Test: 
+Code:
+Expected Output:
 
 
 

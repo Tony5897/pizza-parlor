@@ -11,10 +11,6 @@
 
 
 
-
-
-
-
 /* mdn webs docs reference
     #Object.keys()#
     const object1 = {
@@ -26,6 +22,9 @@
     //expected output: Array ["a","b","c"]
     "new" keyword 
 */
+
+
+
 
 
 
@@ -71,3 +70,10 @@
 
 
 // User Interface Logic -----------
+$(document).ready(function() {
+
+
+
+
+
+})
