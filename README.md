@@ -9,9 +9,8 @@
 >
 >Test: "It should create a Pizza object from the constructor with sizes and toppings properties values for foundational purposes."
 >
->Code: Pizza()
->
->Expected Output: {Pizza}
+>Code: Pizza();
+>Expected Output: {Pizza (sizes, toppings) with properties.}
 # #######################
 >Describe: Pizza()
 >
