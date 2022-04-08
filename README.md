@@ -13,17 +13,25 @@
 <!-- special mold to create 'new' objects(instance) -->
 <!-- this is your constructor(shell) -->
 Describe: Pizza()
-Test: "It should construct a pizza object." 
-Code:Pizza()
-Expected Output: Pizza object constructor
+Test: "It should create a Pizza object from the constructor with empty properties for foundational purposes." 
+Code: Pizza()
+Expected Output: {Pizza}
 # ####################
 
 <!-- VIS:menu/user walk-in maybe?  -->
 <!-- OBJECT -->
 Describe: Pizza()
-Test: "It should return an object with the properties for Size, and Toppings."
+Test: "It should return the pizza object with the properties titled 'sizes', and 'toppings' for the pizza object."
 Code: pizzaJS = new Pizza();
-Expected Output: Pizza {Pizza object with properties....size:[], topping:[]} ???
+Expected Output: {Pizza(); with properties(sizes, toppings)}
+
+
+<!-- 
+function Pizza(){
+  this.sizes = ?;
+  this.toppings = ?;
+} -->
+
 
 <!-- User deciding size of pizza..determine sizes..??? -->
 <!-- What determines sizes...small/med/lrg??...NOTE: FORMULA FOR COST FOR PIZZA/TOPPINGS  -->
@@ -31,9 +39,9 @@ Expected Output: Pizza {Pizza object with properties....size:[], topping:[]} ???
 <!--##VIS: USER PICK SIZE## -->
 <!-- "PROTOTYPE" PROPERTY -->
 Describe: Pizza.prototype.pickSizes(sizes)
-Test: "It should return a size based on user size choice."
+Test: "It should add a method  
 Code: pizzaJS.pickSize();
-Expected Output: {sizes: []}
+Expected Output: {sizes:[]}
 
 <!-- ADD ARRAY??????  -->
 <!-- NOTE: GETTING BACK USERS CHOICE OF PIZZA 'SIZE' AND TOPPING... -->
@@ -42,16 +50,16 @@ Expected Output: {sizes: []}
 Describe: Pizza.prototype.addToppings(menuChoices)
 Test: "It should add an array to the object pizza"
 Code: pizzaJS.addToppings(["ExtraCheese"];)
-Expected Output: {toppings: []}
+Expected Output: {toppings:[]}
 
 <!-- USE A FORMULA...REMEMBER 'NUMBERS/PARSING' -->
 <!-- ##VIS: USER GETS TOTAL COST -->
 <!-- "PROTOTYPE" PROPERTY -->
 Describe: Pizza.prototype.totalCost();
-Test: "It should use formula and return the total of the pizza object for the user."
-Code:pizzaJS.  ();
+Test: "It should use formula and return the total cost of the pizza object for the user."
+Code:pizzaJS = new Pizza();
 Expected Output: {total cost}
-<!-- BASELINE ^^^^^^^^^^^^^^ ?????? -->
+<!-- BASELINE ^^^^^^^^^^^^^^ ??? -->
 
 Describe: Pizza
 Test: 
@@ -62,9 +70,6 @@ Describe: Pizza
 Test: 
 Code:
 Expected Output:
-
-
-
 #
 <!-- NOTES:------------------------------------------------------------------ -->
 
