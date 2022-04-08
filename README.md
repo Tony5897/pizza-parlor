@@ -7,6 +7,7 @@
  * Create a PROTOTYPE METHOD for the COST of a pizza depending on SELECTION chosen.
  * Use own formula for this.
  * FORMAT README!
+ * SIMPLEST BEHAVIOR TO MOST COMPLEX
 #
 # #####################
 <!-- special mold to create 'new' objects(instance) -->
@@ -22,7 +23,7 @@ Expected Output: Pizza object constructor
 Describe: Pizza()
 Test: "It should return an object with the properties for Size, and Toppings."
 Code: pizzaJS = new Pizza();
-Expected Output: Pizza {topping[""], size: "" }
+Expected Output: Pizza {Pizza object with properties....size:[], topping:[]} ???
 
 <!-- User deciding size of pizza..determine sizes..??? -->
 <!-- What determines sizes...small/med/lrg??...NOTE: FORMULA FOR COST FOR PIZZA/TOPPINGS  -->
@@ -32,21 +33,25 @@ Expected Output: Pizza {topping[""], size: "" }
 Describe: Pizza.prototype.pickSizes(sizes)
 Test: "It should return a size based on user size choice."
 Code: pizzaJS.pickSize();
-Expected Output: sizes
+Expected Output: {sizes: []}
 
 <!-- ADD ARRAY??????  -->
 <!-- NOTE: GETTING BACK USERS CHOICE OF PIZZA 'SIZE' AND TOPPING... -->
 <!-- ##VIS: USER ADD TOPPINGS -->
 <!-- "PROTOTYPE" PROPERTY -->
 Describe: Pizza.prototype.addToppings(menuChoices)
-Test: It should add an array to the object pizza
+Test: "It should add an array to the object pizza"
 Code: pizzaJS.addToppings(["ExtraCheese"];)
-Expected Output: {toppings: array}
+Expected Output: {toppings: []}
 
-Describe: Pizza
-Test: 
-Code:
-Expected Output:
+<!-- USE A FORMULA...REMEMBER 'NUMBERS/PARSING' -->
+<!-- ##VIS: USER GETS TOTAL COST -->
+<!-- "PROTOTYPE" PROPERTY -->
+Describe: Pizza.prototype.totalCost();
+Test: "It should use formula and return the total of the pizza object for the user."
+Code:pizzaJS.  ();
+Expected Output: {total cost}
+<!-- BASELINE ^^^^^^^^^^^^^^ ?????? -->
 
 Describe: Pizza
 Test: 
@@ -61,7 +66,7 @@ Expected Output:
 
 
 #
-<!-- NOTES: -->
+<!-- NOTES:------------------------------------------------------------------ -->
 
 <!-- README Layout Note:
 -References/documentation section..maybe?
@@ -77,3 +82,16 @@ Expected Output:
 
 <!-- FORMULA: ???
 #(pick)...size..toppings..total cost... -->
+<!-- 
+
+/* mdn webs docs reference
+    #Object.keys()#
+    const object1 = {
+      a:'something',
+      b: 42,
+      c: false
+    };
+    console.log(Object.keys(object1));
+    //expected output: Array ["a","b","c"]
+    "new" keyword 
+*/ -->
