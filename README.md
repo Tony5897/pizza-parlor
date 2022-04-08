@@ -7,7 +7,7 @@
  
 >Describe: Pizza()
 >
->Test: "It should create a Pizza object from the constructor with empty properties values for foundational purposes."
+>Test: "It should create a Pizza object from the constructor with param(s) properties values for foundational purposes."
 >
 >Code: Pizza()
 >
@@ -21,9 +21,17 @@
 >
 >Expected Output: {Pizza(); with properties(sizes, toppings)}
 # ########################
->Describe: Pizza.prototype.pickSizes(sizes)
+>Describe: Pizza()
 >
->Test: "It should add a method    
+>Test: "The new object 'pizza' should return an empty string from its parameters"
+>
+>Code: Pizza('');
+>
+>Expected Output: {''}
+# ##########################
+>Describe: Pizza.prototype.addSizes(sizes)
+>
+>Test: "It should add a method sizes to the prototype property
 >
 >Code: pizzaJS.pickSize();
 >
@@ -31,7 +39,7 @@
 # #######################
 >Describe: Pizza.prototype.addToppings(menuChoices)
 >
->Test: "It should add an array to the object pizza" 
+>Test: "It should add an array " 
 >
 >Code: pizzaJS.addToppings(['ExtraCheese'];)
 >
@@ -44,7 +52,7 @@
 >Code: pizzaJS = new Pizza();
 >
 >Expected Output: {total cost}
-# ####################### 
+# #########################
 
 
 
@@ -196,6 +204,14 @@ Expected Output: -->
 -How many sizes? Small..Med...Large 
 
 -How much is each pizza? Per Size/Topping..?? ##COST FORMULA##
+(Pizza.prototype.price <----------- ????)
+(Price vs. Size)...numerical value(parse)..
+
+###################^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+################...Toppings SAME PRICE FOR EASE!!!
+
+
+##Literal Notation####
 
 -
 
