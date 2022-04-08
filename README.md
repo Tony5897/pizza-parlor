@@ -7,7 +7,7 @@
  
 >Describe: Pizza()
 >
->Test: "It should create a Pizza object from the constructor with param(s) properties values for foundational purposes."
+>Test: "It should create a Pizza object from the constructor with sizes and toppings properties values for foundational purposes."
 >
 >Code: Pizza()
 >
