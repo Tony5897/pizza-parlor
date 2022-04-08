@@ -24,6 +24,30 @@
 */
 
 /* ###
+  ##BUSINESS LOGIC-FRAME##
+  ---------------------
+  -Constructor(Defined)-
+  ---------------------
+  function Frame(){
+    this.that = ''/[];
+    this.that = []/'';
+  }
+  ---------------------
+  General-Functionalites 
+  ---------------------
+  OBJECT
+
+  OBJECT
+
+  OBJECT-METHOD-PROTOTYPE/PROPERTY
+
+  OBJECT-METHOD-PROTOTYPE/PROPERTY
+  
+  -variables, arrays, looping, parsing etc.
+
+  Return/Output
+###
+
    1 Constructor(Frame)-Properties to be set inside a constructor
    2 Create Objects from the constructor; use 'keyword'
    3 Add property methods or values to the Objects 'prototype' property

@@ -1,6 +1,94 @@
 # Expected Output 
+>
 #                ###Achieve Baseline Functionality First!###
+>
 
+# Pizza-Parlor Testing 
+ 
+>Describe: Pizza()
+>
+>Test: "It should create a Pizza object from the constructor with empty properties values for foundational purposes."
+>
+>Code: Pizza()
+>
+>Expected Output: {Pizza}
+# #######################
+>Describe: Pizza()
+>
+>Test: "It should return the pizza object with the properties titled 'sizes', and 'toppings' for the pizza object."
+>
+>Code: pizzaJS = new Pizza(); 
+>
+>Expected Output: {Pizza(); with properties(sizes, toppings)}
+# ########################
+>Describe: Pizza.prototype.pickSizes(sizes)
+>
+>Test: "It should add a method    
+>
+>Code: pizzaJS.pickSize();
+>
+>Expected Output: {sizes:[]} 
+# #######################
+>Describe: Pizza.prototype.addToppings(menuChoices)
+>
+>Test: "It should add an array to the object pizza" 
+>
+>Code: pizzaJS.addToppings(['ExtraCheese'];)
+>
+>Expected Output: {toppings:[]} 
+# #########################
+>Describe: Pizza.prototype.totalCost();
+>
+>Test: "It should use a formula to gather a sum value to return the total cost of the pizza object to the user." 
+>
+>Code: pizzaJS = new Pizza();
+>
+>Expected Output: {total cost}
+# ####################### 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ------------------------------------------------------------------- -->
+<!-- <!-- 
 # Rules/Baseline:
 * Allow user to choose TOPPINGS and SIZE for pizza order
  * Creat a pizza OBJECT CONSTRUCTOR with PROPERTIES for TOPPINGS and SIZE.
@@ -8,22 +96,22 @@
  * Use own formula for this.
  * FORMAT README!
  * SIMPLEST BEHAVIOR TO MOST COMPLEX
-#
 # #####################
+<!-- #ALL IN ONE FUNCTION???? -->
 <!-- special mold to create 'new' objects(instance) -->
 <!-- this is your constructor(shell) -->
-Describe: Pizza()
+<!-- Describe: Pizza()
 Test: "It should create a Pizza object from the constructor with empty properties for foundational purposes." 
 Code: Pizza()
-Expected Output: {Pizza}
-# ####################
+Expected Output: {Pizza} -->
+<!-- # #################### -->
 
 <!-- VIS:menu/user walk-in maybe?  -->
 <!-- OBJECT -->
-Describe: Pizza()
+<!-- Describe: Pizza()
 Test: "It should return the pizza object with the properties titled 'sizes', and 'toppings' for the pizza object."
 Code: pizzaJS = new Pizza();
-Expected Output: {Pizza(); with properties(sizes, toppings)}
+Expected Output: {Pizza(); with properties(sizes, toppings)} -->
 
 
 <!-- 
@@ -38,30 +126,30 @@ function Pizza(){
 <!-- NOTE: SIZE properties(User size choice) above in first test -->
 <!--##VIS: USER PICK SIZE## -->
 <!-- "PROTOTYPE" PROPERTY -->
-Describe: Pizza.prototype.pickSizes(sizes)
+<!-- Describe: Pizza.prototype.pickSizes(sizes)
 Test: "It should add a method  
 Code: pizzaJS.pickSize();
-Expected Output: {sizes:[]}
+Expected Output: {sizes:[]} -->
 
 <!-- ADD ARRAY??????  -->
 <!-- NOTE: GETTING BACK USERS CHOICE OF PIZZA 'SIZE' AND TOPPING... -->
 <!-- ##VIS: USER ADD TOPPINGS -->
 <!-- "PROTOTYPE" PROPERTY -->
-Describe: Pizza.prototype.addToppings(menuChoices)
+<!-- Describe: Pizza.prototype.addToppings(menuChoices)
 Test: "It should add an array to the object pizza"
 Code: pizzaJS.addToppings(["ExtraCheese"];)
-Expected Output: {toppings:[]}
+Expected Output: {toppings:[]} -->
 
 <!-- USE A FORMULA...REMEMBER 'NUMBERS/PARSING' -->
 <!-- ##VIS: USER GETS TOTAL COST -->
 <!-- "PROTOTYPE" PROPERTY -->
-Describe: Pizza.prototype.totalCost();
+<!-- Describe: Pizza.prototype.totalCost();
 Test: "It should use formula and return the total cost of the pizza object for the user."
 Code:pizzaJS = new Pizza();
-Expected Output: {total cost}
+Expected Output: {total cost} -->
 <!-- BASELINE ^^^^^^^^^^^^^^ ??? -->
 
-Describe: Pizza
+<!-- Describe: Pizza
 Test: 
 Code:
 Expected Output:
@@ -69,8 +157,8 @@ Expected Output:
 Describe: Pizza
 Test: 
 Code:
-Expected Output:
-#
+Expected Output: -->
+
 <!-- NOTES:------------------------------------------------------------------ -->
 
 <!-- README Layout Note:
@@ -100,3 +188,24 @@ Expected Output:
     //expected output: Array ["a","b","c"]
     "new" keyword 
 */ -->
+
+
+<!--
+-How many toppings/choices?
+
+-How many sizes? Small..Med...Large 
+
+-How much is each pizza? Per Size/Topping..?? ##COST FORMULA##
+
+-
+
+
+
+
+
+
+
+
+
+
+ -->
