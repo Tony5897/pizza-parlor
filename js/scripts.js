@@ -1,21 +1,4 @@
-//
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
+//ADD CONSTUCTOR HERE!!
 
 
 
@@ -33,6 +16,7 @@
 
 
 
+//Business Logic 
 
 
 
@@ -42,4 +26,21 @@
 
 
 
-// UI Logic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// UI Logic 
